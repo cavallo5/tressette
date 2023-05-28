@@ -1,9 +1,4 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-package jtressette;
+package src;
 
 import java.util.Scanner;
 
@@ -215,11 +210,11 @@ public class Partita {
      * @param a Giocatore
      * @param b Giocatore
      */
-    public void distribuiscicarteaigiocatorialprimoturno(Giocatore a, Giocatore b) { //da 10 carte ad entrambi i giocatori 
+    public void distribuiscicarteaigiocatorialprimoturno(Giocatore a, Giocatore b) { //da 10 carte ad entrambi i giocatori
         for (int i = 0; i < 10; i++) {
             Carta c = mazzocentrale.daicarta();              //Prende una carta dal mazzocentrale
             a.getmazzoinmano().aggiungicartaeordina(c);    //La carta pescata la mette nel mazzo in mano del giocatore a
-            Carta d = mazzocentrale.daicarta();             //Prende la carta successiva dal mazzocentrale 
+            Carta d = mazzocentrale.daicarta();             //Prende la carta successiva dal mazzocentrale
             b.getmazzoinmano().aggiungicartaeordina(d);   //La carta pescata la metto nel mazzo in mano del giocatore b
         }
 
@@ -336,7 +331,6 @@ public class Partita {
             System.out.println("\n\n\n\n");
         } else { //se l'utente sceglie di non leggere le regole del gioco
             System.out.println("Bene, procediamo");
-            System.out.println("\n\n");
         }
     }
 
