@@ -40,14 +40,10 @@ This Java program allows you to play the classic Italian card game called Tresse
 3. Enjoy!
 
 ## UML Diagram
-<div style="background-color: #4e4e4e ; padding: 10px;">
-  <img src="doc/uml.png" >
-</div>
-<!--![UML Diagram][UML-diagram]-->
+[UML Diagram][UML-diagram]
 
 ## Execution Examples
 <img src="doc/exec1.png" alt="Exec1" width="2400"/>
----
 <img src="doc/exec2.png" alt="Exec2" width="2400"/>
 
 <!-- MARKDOWN LINKS & IMAGES -->
